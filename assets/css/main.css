@@ -1587,7 +1587,7 @@
 	body, input, select, textarea {
 		color: #000033;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
-		font-size: 13pt;
+		font-size: 18pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -1611,7 +1611,7 @@
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -1651,6 +1651,7 @@
 	}
 
 	p {
+		font-weight: 900;
 		margin: 0 0 2em 0;
 	}
 
@@ -1668,11 +1669,12 @@
 
 	h2 {
 		font-size: 1.75em;
-		font-weight: 100;
+		font-weight: 600;
 	}
 
 	h3 {
 		font-size: 1.35em;
+		font-weight: 900;
 	}
 
 	h4 {
@@ -1793,11 +1795,13 @@
 
 			section.wrapper header h2, article.wrapper header h2 {
 				font-size: 2.75em;
+		                font-weight: 800;
 				margin: 0 0 .5em 0;
 			}
 
 			section.wrapper header p, article.wrapper header p {
-				font-size: 1em;
+				font-size: 1.4em;
+				font-weight: 800;
 			}
 
 		section.wrapper article header, article.wrapper article header {
@@ -2752,7 +2756,7 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			font-size: 1em;
+			font-size: 1.5em;
 		}
 
 		#header a {
@@ -2764,7 +2768,8 @@
 			padding: 0 0.75em;
 			color: inherit;
 			text-decoration: none;
-			font-size: .8em;
+			font-size: 1.4em;
+			font-weight: 800;
 		}
 
 			#header a:hover {
@@ -2785,6 +2790,7 @@
 
 				#header a.navPanelToggle .fa {
 					font-size: 1.25em;
+
 				}
 
 				@media screen and (max-width: 980px) {
@@ -2876,7 +2882,7 @@
 		#navPanel a:not(.close) {
 			border-top: solid 1px rgba(255, 255, 255, 0.25);
 			color: #d4e0ef;
-			font-weight: 600;
+			font-weight: 800;
 			display: block;
 			padding: 0.75em 0;
 			text-decoration: none;
@@ -2945,7 +2951,7 @@
 
 		#banner h1 {
 			font-size: 3.5em;
-			font-weight: 100;
+			font-weight: 400;
 			color: #fff;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
@@ -2953,7 +2959,8 @@
 		}
 
 		#banner p {
-			font-size: 1em;
+			font-size: 1.4em;
+			font-weight: bold;
 			color: rgba(255, 255, 255, 0.55);
 			margin-bottom: 1.75em;
 		}
