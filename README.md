@@ -1,3 +1,3 @@
-# AIDAY-OULU
+# SIG-CV
 
-The source code for AI DAY Oulu branch
+The source code for SIG CV branch
